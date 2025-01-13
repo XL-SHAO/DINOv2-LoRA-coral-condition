@@ -11,7 +11,7 @@ The project covered most of the coral habitats surrounding Koh Tao, selected bas
 ![Study area](assets/study_area.pdf)
 ### Dataset organization
 There are 23,965 image patches generated from nine times of field surveys. At each site, the sampling strategy is as follows:
-![image](https://github.com/XL-SHAO/CoralConditionDataset/assets/117028875/9f417cd5-7aea-4cb7-b18b-d28706c904e9)
+![image](https://github.com/XL-SHAO/DINOv2-LoRA-coral-condition/blob/53c6c5665e03ea0d785613e47532f558094280fe/assets/study_area.pdf)
 All the image patches are in JPG format. The images are organized based on the survey they were collected from. For example, the folder ‘20230804_CBK’ is named after the survey date_abbreviation of the site. The full name of each site can be found in the ‘surveys_metadata’ in the tabular_data folder.
 ### Image naming conventions
 The name of each image consists of five parts separated by underscores: the three-letter site code of the sampling site (e.g., ALK=Ao Leuk, CBK=Chalok Baan Kao Bay), the unique four-digit survey number, the two-digit transect number, the date of the survey formatted as YYYYMMDD, the four-digit image number, and the number of the image patch. Examples of the images are as follows:
