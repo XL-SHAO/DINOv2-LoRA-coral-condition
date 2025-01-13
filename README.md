@@ -1,5 +1,5 @@
 # Coral image dataset for coral conditions monitoring in the Indo-Pacific
-Dataset, labels, and codes for coral condition classification paper: [Multi-label classification for multi-temporal, multi-spatial coral reef condition monitoring using vision foundation model with adapter learning]
+Dataset, labels, and codes for coral condition classification paper: Multi-label classification for multi-temporal, multi-spatial coral reef condition monitoring using vision foundation model with adapter learning
 ## Project
 ### Project title
 The Koh Tao Coral Condition Survey Project was initiated by Jun Sasaki’s laboratory and implemented in collaboration with the New Heaven Reef Conservation NPO, Koh Tao, Thailand.
@@ -8,10 +8,10 @@ Given the Koh Tao Island case context, this research aims to apply state-of-the-
 ## Dataset
 ### Dataset description
 The project covered most of the coral habitats surrounding Koh Tao, selected based on the weather conditions and characteristics of the habitats. The dataset consists of (1) the original, uncropped 3000*4000 pixels images; (2) cropped, 512x512 pixels image patches for the training and test of the model; (3) classification labels annotated by human experts; and (4) metadata of each field survey.
-![Study area](assets/study_area.png "(a) Location of the study area, Koh Tao, Thailand; (b) Surveyed dive sites at Koh Tao (base map sourced from Planet Labs Inc. (2024)); (c) Typical stressed coral reef images taken through underwater photo transect method.")
+![Study area](assets/study_area.png)
 ### Dataset organization
 There are 23,965 image patches generated from nine times of field surveys. At each site, the sampling strategy is as follows:
-![image](https://github.com/XL-SHAO/DINOv2-LoRA-coral-condition/blob/53c6c5665e03ea0d785613e47532f558094280fe/assets/study_area.pdf)
+![sampling](https://github.com/XL-SHAO/CoralConditionDataset/assets/117028875/9f417cd5-7aea-4cb7-b18b-d28706c904e9)
 All the image patches are in JPG format. The images are organized based on the survey they were collected from. For example, the folder ‘20230804_CBK’ is named after the survey date_abbreviation of the site. The full name of each site can be found in the ‘surveys_metadata’ in the tabular_data folder.
 ### Image naming conventions
 The name of each image consists of five parts separated by underscores: the three-letter site code of the sampling site (e.g., ALK=Ao Leuk, CBK=Chalok Baan Kao Bay), the unique four-digit survey number, the two-digit transect number, the date of the survey formatted as YYYYMMDD, the four-digit image number, and the number of the image patch. Examples of the images are as follows:
