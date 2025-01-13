@@ -8,7 +8,7 @@ Given the Koh Tao Island case context, this research aims to apply state-of-the-
 ## Dataset
 ### Dataset description
 The project covered most of the coral habitats surrounding Koh Tao, selected based on the weather conditions and characteristics of the habitats. The dataset consists of (1) the original, uncropped 3000*4000 pixels images; (2) cropped, 512x512 pixels image patches for the training and test of the model; (3) classification labels annotated by human experts; and (4) metadata of each field survey.
-![Study area](assets/study_area.pdf)
+![Study area](assets/study_area.pdf "(a) Location of the study area, Koh Tao, Thailand; (b) Surveyed dive sites at Koh Tao (base map sourced from Planet Labs Inc. (2024)); (c) Typical stressed coral reef images taken through underwater photo transect method.")
 ### Dataset organization
 There are 23,965 image patches generated from nine times of field surveys. At each site, the sampling strategy is as follows:
 ![image](https://github.com/XL-SHAO/DINOv2-LoRA-coral-condition/blob/53c6c5665e03ea0d785613e47532f558094280fe/assets/study_area.pdf)
