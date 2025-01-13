@@ -8,7 +8,7 @@ Given the Koh Tao Island case context, this research aims to apply state-of-the-
 ## Dataset
 ### Dataset description
 The project covered most of the coral habitats surrounding Koh Tao, selected based on the weather conditions and characteristics of the habitats. The dataset consists of (1) the original, uncropped 3000*4000 pixels images; (2) cropped, 512x512 pixels image patches for the training and test of the model; (3) classification labels annotated by human experts; and (4) metadata of each field survey.
-![Study area](https://github.com/XL-SHAO/CoralConditionDataset/assets/117028875/b3a5df33-c3b0-4b9f-8b1c-09970549adf4)
+![Study area](https://github.com/XL-SHAO/DINOv2-LoRA-coral-condition/blob/53c6c5665e03ea0d785613e47532f558094280fe/assets/study_area.pdf)
 ### Dataset organization
 There are 23,965 image patches generated from nine times of field surveys. At each site, the sampling strategy is as follows:
 ![image](https://github.com/XL-SHAO/CoralConditionDataset/assets/117028875/9f417cd5-7aea-4cb7-b18b-d28706c904e9)
