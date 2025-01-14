@@ -41,7 +41,7 @@ An ensemble learning-based model combining Swin-Transformer-Small, Swin-Transfor
 If this dataset contributes to your research, please consider citing our paper:
 ```LaTeX
 @article{shao2025DINOv2-LoRA,
- author = {Shao, Xinlei and Chen, Hongruixuan and Magson, Kirsty and Zhao, Fan and Chen, Jundong and Li, Peiran and Wang, Jiaqi and Yokoya, Naoto and Sasaki, Jun},
+ author = {Shao, Xinlei and Chen, Hongruixuan and Magson, Kirsty and Zhao, Fan and Chen, Jundong and Li, Peiran and Wang, Jiaqi and Sasaki, Jun},
  title = {Multi-label classification for multi-temporal, multi-spatial coral reef condition monitoring using vision foundation model with adapter learning},
  journal = {},
  volume = {},
