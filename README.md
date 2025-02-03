@@ -2,7 +2,7 @@
 Dataset, labels, and codes for coral condition classification paper: Multi-label classification for multi-temporal, multi-spatial coral reef condition monitoring using vision foundation model with adapter learning
 ## Project
 ### Project title
-The Koh Tao Coral Condition Survey Project was initiated by Jun Sasaki’s laboratory and implemented in collaboration with the New Heaven Reef Conservation NPO, Koh Tao, Thailand.
+The Koh Tao Coral Condition Survey Project was initiated by Jun Sasaki’s laboratory, University of Tokyo, and implemented in collaboration with the New Heaven Reef Conservation NPO, Koh Tao, Thailand.
 ### Project description
 Given the Koh Tao Island case context, this research aims to apply state-of-the-art deep learning models to devise a new multi-label classification model for coral reef conservation, mainly aiming at revolutionizing the current monitoring program by integrating underwater images and citizen science text data. Coral images were collected by divers holding an Olympus TG-6 with waterproof housing. Geographical parameters were collected as metadata and saved as tabular data of the supplementary materials.
 ## Dataset
