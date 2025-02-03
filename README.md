@@ -1,4 +1,4 @@
-# Coral image dataset for coral conditions monitoring in the Indo-Pacific
+# Coral image dataset for multi-temporal, multi-spatial coral conditions monitoring in the Indo-Pacific
 Dataset, labels, and codes for coral condition classification paper: Multi-label classification for multi-temporal, multi-spatial coral reef condition monitoring using vision foundation model with adapter learning
 ## Project
 ### Project title
