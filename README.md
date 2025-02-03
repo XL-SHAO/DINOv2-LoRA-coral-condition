@@ -10,14 +10,14 @@ Given the Koh Tao Island case context, this research aims to apply state-of-the-
 The project covered most of the coral habitats surrounding Koh Tao, selected based on the weather conditions and characteristics of the habitats. The dataset consists of (1) the original, uncropped 3000*4000 pixels images; (2) cropped, 512x512 pixels image patches for the training and test of the model; (3) classification labels annotated by human experts; and (4) metadata of each field survey.
 ![Study area](assets/study_area.png)
 ### Dataset organization
-There are 23,965 image patches generated from nine times of field surveys. At each site, the sampling strategy is as follows:
+There are 42,105 image patches generated from nine times of field surveys. At each site, the sampling strategy is as follows:
 ![sampling](https://github.com/XL-SHAO/CoralConditionDataset/assets/117028875/9f417cd5-7aea-4cb7-b18b-d28706c904e9)
 All the image patches are in JPG format. The images are organized based on the survey they were collected from. For example, the folder ‘20230804_CBK’ is named after the survey date_abbreviation of the site. The full name of each site can be found in the ‘surveys_metadata’ in the tabular_data folder.
 ### Image naming conventions
-The name of each image consists of five parts separated by underscores: the three-letter site code of the sampling site (e.g., ALK=Ao Leuk, CBK=Chalok Baan Kao Bay), the unique four-digit survey number, the two-digit transect number, the date of the survey formatted as YYYYMMDD, the four-digit image number, and the number of the image patch. Examples of the images are as follows:
+The name of each image consists of five parts separated by underscores: the three-letter site code of the sampling site (e.g., ALK=Aow Leuk, CBK=Chalok Baan Kao Bay), the unique four-digit survey number, the two-digit transect number, the date of the survey formatted as YYYYMMDD, the four-digit image number, and the number of the image patch. Examples of the images are as follows:
 CBK_0001_11_20230805_0001_12, TTB_0002_00_20230815_0002_02
 ### Dataset content
-**1.Coral images:** ([coral_images.zip](https://drive.google.com/drive/folders/1yjvVGSXuFRcO3b0SehyeAHzMtCHhI6S1?usp=drive_link)) this file contains all the underwater coral images taken during the field survey. All the image patches are in 512x512 pixels.
+**1.Coral images:** All image patches are in 512x512 pixels. The file ([coral_images_dry.zip](https://drive.google.com/drive/folders/1yjvVGSXuFRcO3b0SehyeAHzMtCHhI6S1?usp=drive_link)) contains underwater coral images taken during April 2023 and August to September 2023, representing the dry season. The file ([coral_images_dry.zip](https://drive.google.com/drive/folders/1yjvVGSXuFRcO3b0SehyeAHzMtCHhI6S1?usp=drive_link) contains coral images taken from January to February 2024, representing the wet season.
 
 **2.Metadata:** (surveys_metadata.csv) this file provides additional information about the images, and it is organized by the survey id, which refers to every single time of the field observation. The parameters contained in this table are as follows:
 * surveyid: the unique four-digit code representing each observation. For instance, the first field observation was conducted on August 4th, 2023, at Chalok Baan Kao Bay; all the images from this observation will be named with survey id 0001.
@@ -35,10 +35,10 @@ CBK_0001_11_20230805_0001_12, TTB_0002_00_20230815_0002_02
 **4.Annotations:** (annotations.csv) annotation file contains the image patch id and its corresponding classification label, which is used for model training and image classification. This annotation was labeled by human experts in marine ecology and coral conservation.
 
 ## Methodology
-An ensemble learning-based model combining Swin-Transformer-Small, Swin-Transformer-Base, and EfficientNet-B7 was proposed to automatically classify coral images with multiple labels, following the classification standard used in coral reef conservation programs. Codes are available in this repository, and the overall framework of this proposed approach is illustrated as follows:
+An DINOv2 model fine-tuned with LoRA adapter was proposed to automatically classify coral images with multiple labels, following the classification standard used in coral reef conservation programs. The adapter learning with LoRA significantly reduced the number of trainable parameters of the proposed model, resulting in high computational efficiency. Codes are available in this repository, and the overall framework of this proposed approach is illustrated as follows:
 ![framework](assets/proposed_method.png)
 # Citation
-If this dataset contributes to your research, please consider citing our paper:
+If this dataset or codes contributes to your research, please consider citing our paper:
 ```LaTeX
 @article{shao2025DINOv2-LoRA,
  author = {Shao, Xinlei and Chen, Hongruixuan and Magson, Kirsty and Zhao, Fan and Chen, Jundong and Li, Peiran and Wang, Jiaqi and Sasaki, Jun},
