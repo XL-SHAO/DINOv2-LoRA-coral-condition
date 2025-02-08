@@ -10,7 +10,7 @@ Given the Koh Tao Island case context, this study is the first to explore the ef
 The project covered most of the coral habitats surrounding Koh Tao, selected based on the weather conditions and characteristics of the habitats. The dataset consists of (1) the original, uncropped 3000*4000 pixels images; (2) cropped, 512x512 pixels image patches for the training and test of the model; (3) classification labels annotated by human experts; and (4) metadata of each field survey.
 ![Study area](assets/study_area.png)
 ### Dataset organization
-There are 42,105 image patches generated from nine times of field surveys. At each site, the sampling strategy is as follows:
+There are 42,105 image patches generated from 40 times of field surveys. At each site, the sampling strategy is as follows:
 ![sampling](https://github.com/XL-SHAO/CoralConditionDataset/assets/117028875/9f417cd5-7aea-4cb7-b18b-d28706c904e9)
 All the image patches are in JPG format. The images are organized based on the survey they were collected from. For example, the folder ‘20230804_CBK’ is named after the survey date_abbreviation of the site. The full name of each site can be found in the ‘surveys_metadata’ in the tabular_data folder.
 ### Image naming conventions
