@@ -40,15 +40,16 @@ An DINOv2 model fine-tuned with LoRA adapter was proposed to automatically class
 # Citation
 If this dataset or codes contributes to your research, please consider citing our paper:
 ```LaTeX
-@article{shao2025DINOv2-LoRA,
- author = {Shao, Xinlei and Chen, Hongruixuan and Zhao, Fan and Magson, Kirsty and Chen, Jundong and Li, Peiran and Wang, Jiaqi and Sasaki, Jun},
- title = {Multi-label classification for multi-temporal, multi-spatial coral reef condition monitoring using vision foundation model with adapter learning},
- journal = {},
- volume = {},
- number = {},
- pages = {},
- doi = {},
- year = {2025}
+@article{SHAO2026119054,
+title = {Multi-label classification for multi-temporal, multi-spatial coral reef condition monitoring using vision foundation model with adapter learning},
+journal = {Marine Pollution Bulletin},
+volume = {223},
+pages = {119054},
+year = {2026},
+issn = {0025-326X},
+doi = {https://doi.org/10.1016/j.marpolbul.2025.119054},
+url = {https://www.sciencedirect.com/science/article/pii/S0025326X25015309},
+author = {Xinlei Shao and Hongruixuan Chen and Fan Zhao and Kirsty Magson and Jundong Chen and Peiran Li and Jiaqi Wang and Jun Sasaki}
 }
 ```
 # Q & A
