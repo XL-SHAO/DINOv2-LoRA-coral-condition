@@ -40,7 +40,7 @@ An DINOv2 model fine-tuned with LoRA adapter was proposed to automatically class
 # Citation
 If this dataset or codes contributes to your research, please consider citing our paper:
 ```LaTeX
-@article{SHAO2026DINOv2LoRA,
+@article{shao2026dinov2lora,
 title = {Multi-label classification for multi-temporal, multi-spatial coral reef condition monitoring using vision foundation model with adapter learning},
 journal = {Marine Pollution Bulletin},
 volume = {223},
